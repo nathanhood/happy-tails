@@ -1,6 +1,6 @@
-# client-template
+# Happy-Tails Animal Shelter
 
-Serves as a template for client JavaScript applications.
+This is an exercise on object-orientation.
 
 It uses:
 * Jade

@@ -2,15 +2,52 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
-    title JS++
+    title Animal Shelter
     link(rel='stylesheet', href='./css/app.css')
   body
-    h1 JS++
+    h1 Happy Tails
+
+    #controls
+      select#species
+        option Animal Type
+        option Dragon
+        option Dog
+        option Cat
+        option Sloth
+      select#gender
+        option Gender
+        option Male
+        option Female
+      select#weapon
+        option Weapon
+        option Poison
+        option Fire
+        option Arrow
+        option Axe
+      input#name(type='text' placeholder='name')
+      input#age(type='text' placeholder='age')
+      input#photo(type='text' placeholder='photo url')
+      button#add Add!
+
+    h2 Animals
+    #animals
+      h3 Dragons
+      #dragon
+      h3 Dogs
+      #dog
+      h3 Cats
+      #cat
+      h3 Sloths
+      #sloth
 
     script(src='./js/vendor/traceur.js')
     script(src='./js/vendor/experimental.js')
     script(src='./js/vendor/jquery-2.1.0.js')
     script(src='./js/vendor/lodash-2.4.1.js')
     script(src='./js/vendor/moment-2.6.0.js')
-    script(src='./js/es5/main.js')
+    script(src='./js/es6/utility.js')
+    script(src='./js/es6/dragon.js')
+    script(src='./js/es6/dog.js')
+    script(src='./js/es6/cat.js')
+    script(src='./js/es6/sloth.js')
     script(src='./js/es6/main.js')
